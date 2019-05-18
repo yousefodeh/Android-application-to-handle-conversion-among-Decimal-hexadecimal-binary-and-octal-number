@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/B"
+        app:showAsAction="ifRoom|withText"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:icon="@drawable/b"
+        app:itemIconTint="#14ddff"
+        android:title="Binary" />
+    <item
+        android:id="@+id/d"
+        app:showAsAction="ifRoom|withText"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:icon="@drawable/d"
+        app:itemIconTint="#14ddff"
+        android:title="Decimal" />
+    <item
+        android:id="@+id/O"
+        app:showAsAction="ifRoom|withText"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:icon="@drawable/o"
+        app:itemIconTint="#14ddff"
+        android:title="Octal" />
+    <item
+        android:id="@+id/H"
+        android:icon="@drawable/h"
+        android:textAppearance="?android:textAppearanceSmall"
+        app:itemIconTint="#14ddff"
+        app:showAsAction="ifRoom|withText"
+        android:title="Hexadecimal" />
+</menu>
